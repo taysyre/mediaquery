@@ -1,0 +1,141 @@
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen {
+    .logo{
+        min-height: 50px;
+        min-width: 50px;
+    }
+    .words{
+
+        min-width: 250px;
+    }
+    .menu{
+        min-height: 10px;
+        min-width: 10px;
+        display: inline-flex;
+        align-items: center;
+        text-align: left;
+    }
+}
+@media screen {
+    .logo{
+        max-height: 100px;
+        max-width: 100px;
+    }
+    .words{
+        max-width: 2000px;
+    }
+    .menu{
+        max-height: 10px;
+        max-width: 10px;
+    }
+}
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+    
+header ul li a:hover,
+header ul li .active{
+
+    background: #fff;
+    color: #2b1055
+}
+header ul li a:hover{
+    background: #fff;
+    color: #2b1055
+}
+.logo {
+    width: 16em;
+    border-radius: 8em;
+
+}
+.logo:hover { 
+    box-shadow: 0 0 6px 4px rgb(244, 240, 240);
+    scale: 1.1;
+}
+.menu {
+    /* margin: auto 0; */
+    align-items: flex-end;
+    margin: 5px 10px 0;
+}
+.menu-list {
+    display: inline-flex;
+    list-style: none;
+}
+.menu-list li {
+    padding: 0 5px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  .pform{
+    color: black;
+  }
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #1a75de;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
